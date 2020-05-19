@@ -27,7 +27,7 @@ class Main {
       // 1 is paper
       //2 is rock
       //3 is scissors
-      if ((computer == 1 && player == "paper")|| (computer == 2 && player == "rock") || (computer == 3 && player == "scissors"));
+      if ((computer == 1 && player.equalsignorecase("paper"))|| (computer == 2 && player.equalsignorecase( "rock")) || (computer == 3 && player.equals("scissors")))
       {
         System.out.println("tie, both you and the computer picked the same thing");
       }
@@ -55,7 +55,6 @@ class Main {
       {
         System.out.println("you lose, you choose scissors while the computer choose rock");
       }
-      scan.reset();
       System.out.println("would you like to play again");
       choice = scan.nextLine();
     }
