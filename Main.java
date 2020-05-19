@@ -27,7 +27,7 @@ class Main {
       // 1 is paper
       //2 is rock
       //3 is scissors
-      if ((computer == 1 && player.equalsignorecase("paper"))|| (computer == 2 && player.equalsignorecase( "rock")) || (computer == 3 && player.equals("scissors")))
+      if ((computer == 1 && player.equalsIgnoreCase("paper"))|| (computer == 2 && player.equalsIgnoreCase( "rock")) || (computer == 3 && player.equalsIgnoreCase("scissors")))
       {
         System.out.println("tie, both you and the computer picked the same thing");
       }
